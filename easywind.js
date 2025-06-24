@@ -152,3 +152,7 @@ pulse { animation: pulse 2s infinite; }
 }
 `;
 document.head.appendChild(style);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a9ed7e13afc47b5af13ec599cde1052d330b184
