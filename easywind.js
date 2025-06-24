@@ -1,19 +1,6 @@
 const style = document.createElement('style');
 style.textContent = `
-/*====================
-  EasyWind CSS Library v1.0
-  Author: Varad Patil
-  Unique, simple & Tailwind++
-=====================*/
-
-/* COLORS */
-.c-red { color: red; }
-.c-blue { color: blue; }
-.c-green { color: green; }
-.c-yellow { color: yellow; }
-.c-gray { color: gray; }
-.c-white { color: #fff; }
-.c-black { color: #000; }
+/* EasyWind CSS Library v1.0 - Full Updated Styling */
 
 /* BACKGROUND */
 .bg-red { background: red; }
@@ -82,8 +69,8 @@ style.textContent = `
 /* WIDTH / HEIGHT */
 .w-full { width: 100%; }
 .w-screen { width: 100vw; }
-.h-full { height: 100%; }
-.h-screen { height: 100vh; }
+h-full { height: 100%; }
+h-screen { height: 100vh; }
 .max-w-1 { max-width: 640px; }
 .max-w-2 { max-width: 768px; }
 
@@ -97,9 +84,23 @@ op-100 { opacity: 1; }
 .cursor-wait { cursor: wait; }
 .cursor-not-allowed { cursor: not-allowed; }
 
+/* BUTTON */
+.btn { padding: 8px 16px; border-radius: 4px; background: #4facfe; color: white; border: none; cursor: pointer; transition: all 0.3s ease; }
+.btn:hover { background: #00f2fe; }
+
+/* CARD */
+.card { padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background: white; }
+
+/* UTILITIES */
+.hidden { display: none; }
+.block { display: block; }
+.inline { display: inline; }
+overflow-hidden { overflow: hidden; }
+overflow-auto { overflow: auto; }
+
 /* HOVER */
-.hover-bg-red:hover { background: red; }
 .hover-scale:hover { transform: scale(1.05); transition: 0.3s; }
+.hover-bg-red:hover { background: red; }
 .hover-shadow:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
 
 /* RESPONSIVE */
@@ -116,22 +117,6 @@ op-100 { opacity: 1; }
 /* DARK MODE */
 .dark .bg-dark { background: #222; color: #eee; }
 .dark .text-light { color: #eee; }
-
-/* BUTTON STYLE */
-.btn { padding: 8px 16px; border-radius: 4px; background: #4facfe; color: white; cursor: pointer; border: none; transition: all 0.3s ease; }
-.btn:hover { background: #00f2fe; }
-.btn-outline { background: transparent; border: 2px solid #4facfe; color: #4facfe; }
-.btn-outline:hover { background: #4facfe; color: white; }
-
-/* CARD */
-.card { border: 1px solid #ddd; padding: 16px; border-radius: 8px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-
-/* UTILITIES */
-.hidden { display: none; }
-.block { display: block; }
-.inline { display: inline; }
-overflow-hidden { overflow: hidden; }
-overflow-auto { overflow: auto; }
 
 /* ANIMATION */
 .spin { animation: spin 1s linear infinite; }
@@ -152,7 +137,3 @@ pulse { animation: pulse 2s infinite; }
 }
 `;
 document.head.appendChild(style);
-<<<<<<< HEAD
-=======
-
->>>>>>> 5a9ed7e13afc47b5af13ec599cde1052d330b184
